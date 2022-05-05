@@ -1,4 +1,6 @@
 package tech.demura.try_dagger2
 
-class Mouse {
+import javax.inject.Inject
+
+class Mouse @Inject constructor() {
 }

@@ -1,4 +1,6 @@
 package tech.demura.try_dagger2
 
-class Monitor {
+import javax.inject.Inject
+
+class Monitor @Inject constructor() {
 }

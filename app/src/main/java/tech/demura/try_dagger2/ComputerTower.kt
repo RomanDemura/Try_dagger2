@@ -1,4 +1,8 @@
 package tech.demura.try_dagger2
 
-class ComputerTower {
+class ComputerTower(
+    storage: Storage,
+    memory: Memory,
+    processor: Processor
+) {
 }

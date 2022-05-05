@@ -1,4 +1,9 @@
 package tech.demura.try_dagger2
 
-class Computer {
+class Computer(
+    monitor: Monitor,
+    copmuterTower: ComputerTower,
+    keyboard: Keyboard,
+    mouse: Mouse
+) {
 }
