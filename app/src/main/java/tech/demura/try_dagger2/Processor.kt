@@ -1,4 +1,6 @@
 package tech.demura.try_dagger2
 
-class Processor {
+import javax.inject.Inject
+
+class Processor @Inject constructor() {
 }

@@ -1,4 +1,6 @@
 package tech.demura.try_dagger2
 
-class Storage {
+import javax.inject.Inject
+
+class Storage @Inject constructor() {
 }

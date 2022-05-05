@@ -1,4 +1,6 @@
 package tech.demura.try_dagger2
 
-class Memory {
+import javax.inject.Inject
+
+class Memory @Inject constructor() {
 }
