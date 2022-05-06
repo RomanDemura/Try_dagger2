@@ -1,4 +1,4 @@
-package tech.demura.try_dagger2
+package tech.demura.try_dagger2.Example1
 
 import dagger.Module
 import dagger.Provides
@@ -12,12 +12,12 @@ class ComputerModule {
     }
 
     @Provides
-    fun provideKeyboard(): Keyboard{
+    fun provideKeyboard(): Keyboard {
         return Keyboard()
     }
 
     @Provides
-    fun provideMouse(): Mouse{
+    fun provideMouse(): Mouse {
         return Mouse()
     }
 

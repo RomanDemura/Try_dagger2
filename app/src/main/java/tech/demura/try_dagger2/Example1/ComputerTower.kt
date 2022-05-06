@@ -1,6 +1,4 @@
-package tech.demura.try_dagger2
-
-import javax.inject.Inject
+package tech.demura.try_dagger2.Example1
 
 class ComputerTower (
     storage: Storage,

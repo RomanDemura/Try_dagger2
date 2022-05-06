@@ -1,4 +1,4 @@
-package tech.demura.try_dagger2
+package tech.demura.try_dagger2.Example1
 
 import dagger.Module
 import dagger.Provides
@@ -6,15 +6,15 @@ import dagger.Provides
 @Module
 class ComputerTowerModule {
     @Provides
-    fun provideStorage(): Storage{
+    fun provideStorage(): Storage {
         return Storage()
     }
     @Provides
-    fun provideMemory(): Memory{
+    fun provideMemory(): Memory {
         return Memory()
     }
     @Provides
-    fun provideProcessor(): Processor{
+    fun provideProcessor(): Processor {
         return Processor()
     }
     @Provides
@@ -22,7 +22,7 @@ class ComputerTowerModule {
         storage: Storage,
         memory: Memory,
         processor: Processor
-    ): ComputerTower{
+    ): ComputerTower {
         return ComputerTower(storage, memory, processor)
     }
 }

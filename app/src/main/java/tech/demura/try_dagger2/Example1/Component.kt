@@ -1,6 +1,4 @@
-package tech.demura.try_dagger2
-
-import android.content.Context
+package tech.demura.try_dagger2.Example1
 
 class Component {
     fun getComputer(): Computer {
